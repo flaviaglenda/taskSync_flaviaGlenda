@@ -57,14 +57,28 @@ $tarefas = $connection->query("SELECT * FROM tarefas ORDER BY data_cadastro DESC
     <meta charset="UTF-8">
     <title>Gerenciar Tarefas</title>
     <link rel="stylesheet" href="./css/gerenciarTarefas.css">
+      <link rel="stylesheet" href="./css/nav.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <img src="./img/task_logoazul.png" class="logo" alt="Logo">
-        <a href="./cadastro.php">Sair</a>
-    </nav>
+   <nav>
+    <div class="nav__header">
+        <div class="nav__logo">
+            <a href="#">
+                <img src="./img/task_logoazul.png" alt="logo" />
+            </a>
+        </div
+        <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-3-line"></i>
+        </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+        <li><a href="./index.php">Início</a></li>
+        <li><a href="./gerenciarTarefas.php">Gerenciar tarefas</a></li>
+        <li><a href="./cadastro.php">Sair</a></li>
+    </ul>
+</nav>
 
     <div class="container">
         <h2>Adicionar Tarefa</h2>
