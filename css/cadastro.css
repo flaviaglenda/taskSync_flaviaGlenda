@@ -1,0 +1,105 @@
+:root{
+    --darkBlue1: #334b58;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    align-items: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: var(--darkBlue1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    margin-top: 180px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 57%;
+    height: 55%;
+    box-shadow: 0 8px 8px  rgb(65, 64, 64);
+}
+
+.logo{
+    padding-left: 100px;
+    margin-top: -90px;
+    width: 500px;
+    align-items: center;
+    height: 300px;
+    margin-bottom: -90px;
+}
+
+.formularioCadastro {
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+}
+
+section{
+    display: flex;
+    margin-top: 20px;
+}
+
+label{
+    padding: 4px;
+   font-size: 100%; 
+   width: 200px;
+   height: 19.2;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+
+
+input:hover{
+    border: rgb(138, 138, 138) solid 2px ;
+    background-color: rgb(205, 205, 205);
+}
+
+.botaoCadastrar {
+    text-decoration: none;
+    color: #fff;
+    background-color: #334b58;
+    height: 40px;
+    width: 100px;
+    margin-top:20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#enviar{
+    background-color: rgb(213, 213, 213);
+    width: 50% ;
+    height: 5%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30%;
+}
+
+#enviar:hover{
+    border: rgb(129, 129, 129) solid 1px;
+    width: 51%;
+    height: 5.5%;
+    background-color: rgb(199, 199, 199);
+}
